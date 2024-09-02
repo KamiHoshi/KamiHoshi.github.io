@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D9A0AF;
+}
+
+/* Sobre mim */
+.menu {
+    background-color: #BF7E90;
+    padding-top:1%;
+    font-size:20px;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+}
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding:2%;
+    font-weight:600;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition:0.3s;
+}
+/* RODAPÉ */
+.rodape {
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    font-size:12px;
+    height:5vh;
+    background-color: #6c4450;
+    color: #fff;
+}
+
+/* Sobre Mim */
+.Start {
+    display: flex;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: center; /* Alinha verticalmente o avatar e o texto */
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Faz o conteúdo se ajustar ao espaço ocupado */
+}
+
+.avatar {
+    max-width: 200px;
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+    padding: 2%;
+}
+
+.SobreMim {
+    max-width: 430px;
+    color: #110f0c;
+}
+
+h1 {
+    font-size:20px;
+    font-weight:800;
+}
+
+h2 {
+    font-size: large;
+    font-weight:400;
+}
+
+/* Portifólio */ 
+.conteudo-xp {
+    display: flex;
+    justify-content: center;
+    padding-top:5%;
+}
+
+.texto-xp {
+    max-width:430px;
+    color: #110f0c;
+}
+
+/* Formação Educacional */
+.conteudo-pessoal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar horizontalmente */
+    padding-top: 5%;
+    width: 100%;
+}
+
+.texto-pessoal {
+    max-width:600px;
+    color: #010101;
+}
+
+/* Contato */
+.contato {
+    max-width:650px;
+    margin:50px auto;
+    padding:20px;
+    border-radius:2%;
+}
+
+label {
+    display: block;
+    padding-top:15px;
+}
+
+input,textarea {
+    width:100%;
+    padding:10px;
+    border:1px solid #c2c2c2;
+}
+
+textarea {
+    padding-bottom:30%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding:10px 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width:50px;
+    padding:10px;
+}
